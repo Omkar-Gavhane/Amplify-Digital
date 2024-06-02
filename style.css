@@ -1,0 +1,424 @@
+:root {
+    --primary-bgc: #fff;
+    --secondary-bgc: #fafafa;
+    --ternery-bgc: #ff3147;
+    --project-bgc: #f6f6f6;
+    --services-provide-hover: #b1b1b1;
+    --primary-font: "Cormorant SC", serif;
+    --secondary-font: "Poppins", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+}
+
+main {
+    margin-top: 20vh;
+}
+
+footer {
+    max-height: 30%;
+    background-color: #FF3147;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:active {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.container-xl {
+    max-width: 1296px;
+    margin: auto;
+}
+
+
+
+.btn:hover {
+    background-color: var(--ternery-bgc);
+}
+
+.hero-section {
+    height: 70vh !important;
+    /* gap: 50px; */
+    margin-bottom: 100px;
+}
+
+.hero-left-desc {
+    max-width: 40%;
+
+}
+
+.hero-img {
+    max-width: 40%;
+}
+
+.hero-img img {
+    max-height: 637px;
+
+}
+
+.hero-h3 {
+    color: var(--ternery-bgc);
+}
+
+.hero-h1 {
+    font-size: 3rem;
+}
+
+.hero-desc {
+    text-align: justify;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+}
+
+.btn {
+    background-color: var(--ternery-bgc);
+    border: var(--ternery-bgc);
+}
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact .card {
+    max-width: 450px;
+    border: #f1f1f1 2px solid;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.card .col h3 {
+    color: #2D3142;
+    font-size: 20;
+}
+
+form input {
+    border: 5px !important;
+    border-bottom: 1px solid #6F718F99 !important;
+    border-radius: 0 !important;
+}
+
+.form-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.check input+label {
+    display: inline;
+}
+
+#agree {
+    background-color: var(--ternery-bgc);
+    border-color: var(--ternery-bgc);
+}
+
+form button {
+    background-color: var(--ternery-bgc);
+    border: 2px solid var(--ternery-bgc) !important;
+    color: white;
+}
+
+.services-provide {
+    margin-top: 10px;
+    background-color: var(--secondary-bgc);
+    height: 90vh;
+    padding-block: 20px;
+    padding-right: 380px;
+}
+
+.services-provide .content-space {
+    margin-left: 195px;
+    margin-block: 50px;
+}
+
+.services-provide .content-space h3 {
+    font-size: 30px;
+    color: var(--ternery-bgc);
+}
+
+.content-desc {
+    justify-content: space-between;
+    margin-block: 20px;
+    /* align-items: center; */
+}
+
+.left-title {
+    width: 40%;
+}
+
+.left-title h1 {
+    font-weight: 500;
+}
+
+.right-desc {
+    width: 50%;
+    text-align: justify;
+}
+
+.slider-container {
+    width: 100%;
+}
+
+.card {
+    padding: 0;
+    max-height: 400px;
+    max-width: 281px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card .image-box {
+    height: 400px;
+}
+
+.card .image-box img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    right: 0;
+    position: absolute;
+    background: rgba(255, 49, 70, 0.844);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 1s;
+}
+
+.card:hover .card-body {
+    top: 0;
+
+}
+
+.card-body img {
+    width: 57px !important;
+    height: 57px !important;
+}
+
+.card-body a {
+    width: 60%;
+    height: 40px;
+}
+
+.card-body-desc {
+    font-size: 0.8rem;
+}
+
+.card-body a button {
+    width: 100%;
+    height: 40px;
+    font-size: 0.7rem;
+    background-color: rgba(255, 49, 70, 0.844);
+    border: 1px solid white;
+}
+
+.card-body button i {
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chose-us {
+    font-size: 1.5rem;
+    color: var(--ternery-bgc);
+}
+
+.why-choose-us {
+    margin-inline: 150px;
+    margin-block: 70px;
+}
+
+.chose-us-title {
+    font-weight: 500;
+}
+
+.chose-us-container {
+    margin-left: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.our-projects .chose-us-container{
+    margin-inline: auto;
+}
+
+.experts-growth .chose-us-container{
+    margin-inline: auto;
+}
+
+.feedback .chose-us-container{
+    margin-inline: auto;
+}
+
+.features-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    width: 22%;
+}
+
+.feature img {
+    width: 56px;
+}
+
+.feature-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.feature-desc {
+    text-align: justify;
+}
+
+.our-projects {
+    height: 80vh;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.list-group {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.list-group-item-active {
+    background: var(--ternery-bgc);
+    color: white;
+}
+
+.list-project-title {
+    font-weight: 600;
+}
+
+.experts-growth {
+    margin-top: 150px;
+    background-color: #fafafa;
+    padding-block: 60px;
+}
+
+.counter {
+    height: 225px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.counter:hover {
+    box-shadow: 10px 10px 10px #672C2C1F;
+}
+
+.counter i {
+    font-size: 2rem;
+    color: var(--ternery-bgc);
+}
+
+.counter h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.counter p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.cropped-image {
+    width: 200px;
+    height: 100px;
+    clip-path: inset(0 200px 150px 0);
+}
+
+.quoted-marks {
+    background-image: url(assets/Quotemarks-left.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.feedback {
+    padding: 50px;
+}
+
+.feedback .chose-us-container {
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+.author {
+    color: #808080;
+    align-self: flex-start;
+}
+
+.author-name {
+    color: var(--ternery-bgc);
+}
+
+.footer-container {
+    padding: 100px;
+    padding-left: 45px;
+}
+
+.footer-container img{
+    object-fit: cover;
+}
