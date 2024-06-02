@@ -14,7 +14,7 @@ $("#contactUsForm").submit(function (e) {
     },
   })
     .done(function () {
-      alert("The form was submitted successfully.");
+      alert("The form was submitted successfully to getform.io");
     })
     .fail(function () {
       alert("An error occurred! Please try again later.");
