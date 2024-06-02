@@ -13,10 +13,4 @@ $("#contactUsForm").submit(function (e) {
       Accept: "application/json",
     },
   })
-    .done(function () {
-      alert("The form was submitted successfully.");
-    })
-    .fail(function () {
-      alert("An error occurred! Please try again later.");
-    });
 });
